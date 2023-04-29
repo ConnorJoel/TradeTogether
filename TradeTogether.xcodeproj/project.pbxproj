@@ -8,17 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		E496F40629F5ABBA00C33CEF /* TradeTogetherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496F40529F5ABBA00C33CEF /* TradeTogetherApp.swift */; };
-		E496F40829F5ABBA00C33CEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496F40729F5ABBA00C33CEF /* ContentView.swift */; };
+		E496F40829F5ABBA00C33CEF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496F40729F5ABBA00C33CEF /* LoginView.swift */; };
 		E496F40A29F5ABBD00C33CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E496F40929F5ABBD00C33CEF /* Assets.xcassets */; };
 		E496F40D29F5ABBD00C33CEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E496F40C29F5ABBD00C33CEF /* Preview Assets.xcassets */; };
+		E496F41729F5ADC200C33CEF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E496F41629F5ADC200C33CEF /* FirebaseAuth */; };
+		E496F41929F5ADC200C33CEF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E496F41829F5ADC200C33CEF /* FirebaseFirestore */; };
+		E496F41B29F5ADC200C33CEF /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E496F41A29F5ADC200C33CEF /* FirebaseFirestoreSwift */; };
+		E496F41D29F5ADC200C33CEF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E496F41C29F5ADC200C33CEF /* FirebaseStorage */; };
+		E496F41F29F5AF6000C33CEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E496F41E29F5AF5F00C33CEF /* GoogleService-Info.plist */; };
+		E496F42129F5C48B00C33CEF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496F42029F5C48B00C33CEF /* HomeView.swift */; };
+		E496F42329F5D14D00C33CEF /* Watchlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496F42229F5D14D00C33CEF /* Watchlist.swift */; };
+		E496F42529F5D16700C33CEF /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496F42429F5D16700C33CEF /* Stock.swift */; };
+		E496F42929F5DC5D00C33CEF /* WatchlistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496F42829F5DC5D00C33CEF /* WatchlistDetailView.swift */; };
+		E496F42B29F5E6B700C33CEF /* StockLookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496F42A29F5E6B700C33CEF /* StockLookupView.swift */; };
+		E496F42E29F5EA1100C33CEF /* StockLookupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496F42D29F5EA1100C33CEF /* StockLookupViewModel.swift */; };
+		E496F43029F5EBAC00C33CEF /* StockResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496F42F29F5EBAC00C33CEF /* StockResults.swift */; };
+		E496F43229F6171500C33CEF /* StockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496F43129F6171500C33CEF /* StockDetailView.swift */; };
+		E496F43429F6185F00C33CEF /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496F43329F6185F00C33CEF /* StockViewModel.swift */; };
+		E496F43629F639CF00C33CEF /* PublicWatchlistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496F43529F639CF00C33CEF /* PublicWatchlistsView.swift */; };
+		E496F43829F6D30600C33CEF /* WatchlistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496F43729F6D30600C33CEF /* WatchlistViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E496F40229F5ABBA00C33CEF /* TradeTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E496F40529F5ABBA00C33CEF /* TradeTogetherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeTogetherApp.swift; sourceTree = "<group>"; };
-		E496F40729F5ABBA00C33CEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E496F40729F5ABBA00C33CEF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E496F40929F5ABBD00C33CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E496F40C29F5ABBD00C33CEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E496F41E29F5AF5F00C33CEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E496F42029F5C48B00C33CEF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E496F42229F5D14D00C33CEF /* Watchlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watchlist.swift; sourceTree = "<group>"; };
+		E496F42429F5D16700C33CEF /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		E496F42829F5DC5D00C33CEF /* WatchlistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistDetailView.swift; sourceTree = "<group>"; };
+		E496F42A29F5E6B700C33CEF /* StockLookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockLookupView.swift; sourceTree = "<group>"; };
+		E496F42D29F5EA1100C33CEF /* StockLookupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockLookupViewModel.swift; sourceTree = "<group>"; };
+		E496F42F29F5EBAC00C33CEF /* StockResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockResults.swift; sourceTree = "<group>"; };
+		E496F43129F6171500C33CEF /* StockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailView.swift; sourceTree = "<group>"; };
+		E496F43329F6185F00C33CEF /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
+		E496F43529F639CF00C33CEF /* PublicWatchlistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicWatchlistsView.swift; sourceTree = "<group>"; };
+		E496F43729F6D30600C33CEF /* WatchlistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +54,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E496F41729F5ADC200C33CEF /* FirebaseAuth in Frameworks */,
+				E496F41D29F5ADC200C33CEF /* FirebaseStorage in Frameworks */,
+				E496F41929F5ADC200C33CEF /* FirebaseFirestore in Frameworks */,
+				E496F41B29F5ADC200C33CEF /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				E496F40529F5ABBA00C33CEF /* TradeTogetherApp.swift */,
-				E496F40729F5ABBA00C33CEF /* ContentView.swift */,
+				E496F42629F5D16D00C33CEF /* Views */,
+				E496F42729F5D17800C33CEF /* Models */,
+				E496F42C29F5E9E200C33CEF /* ViewModels */,
+				E496F41E29F5AF5F00C33CEF /* GoogleService-Info.plist */,
 				E496F40929F5ABBD00C33CEF /* Assets.xcassets */,
 				E496F40B29F5ABBD00C33CEF /* Preview Content */,
 			);
@@ -65,6 +100,39 @@
 				E496F40C29F5ABBD00C33CEF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E496F42629F5D16D00C33CEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E496F40729F5ABBA00C33CEF /* LoginView.swift */,
+				E496F42029F5C48B00C33CEF /* HomeView.swift */,
+				E496F43529F639CF00C33CEF /* PublicWatchlistsView.swift */,
+				E496F42829F5DC5D00C33CEF /* WatchlistDetailView.swift */,
+				E496F43129F6171500C33CEF /* StockDetailView.swift */,
+				E496F42A29F5E6B700C33CEF /* StockLookupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E496F42729F5D17800C33CEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E496F42229F5D14D00C33CEF /* Watchlist.swift */,
+				E496F42429F5D16700C33CEF /* Stock.swift */,
+				E496F42F29F5EBAC00C33CEF /* StockResults.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E496F42C29F5E9E200C33CEF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E496F43729F6D30600C33CEF /* WatchlistViewModel.swift */,
+				E496F43329F6185F00C33CEF /* StockViewModel.swift */,
+				E496F42D29F5EA1100C33CEF /* StockLookupViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +151,12 @@
 			dependencies = (
 			);
 			name = TradeTogether;
+			packageProductDependencies = (
+				E496F41629F5ADC200C33CEF /* FirebaseAuth */,
+				E496F41829F5ADC200C33CEF /* FirebaseFirestore */,
+				E496F41A29F5ADC200C33CEF /* FirebaseFirestoreSwift */,
+				E496F41C29F5ADC200C33CEF /* FirebaseStorage */,
+			);
 			productName = TradeTogether;
 			productReference = E496F40229F5ABBA00C33CEF /* TradeTogether.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +185,9 @@
 				Base,
 			);
 			mainGroup = E496F3F929F5ABBA00C33CEF;
+			packageReferences = (
+				E496F41529F5ADC100C33CEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = E496F40329F5ABBA00C33CEF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +204,7 @@
 			files = (
 				E496F40D29F5ABBD00C33CEF /* Preview Assets.xcassets in Resources */,
 				E496F40A29F5ABBD00C33CEF /* Assets.xcassets in Resources */,
+				E496F41F29F5AF6000C33CEF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +215,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E496F40829F5ABBA00C33CEF /* ContentView.swift in Sources */,
+				E496F42129F5C48B00C33CEF /* HomeView.swift in Sources */,
+				E496F43829F6D30600C33CEF /* WatchlistViewModel.swift in Sources */,
+				E496F43629F639CF00C33CEF /* PublicWatchlistsView.swift in Sources */,
+				E496F42329F5D14D00C33CEF /* Watchlist.swift in Sources */,
+				E496F40829F5ABBA00C33CEF /* LoginView.swift in Sources */,
+				E496F43429F6185F00C33CEF /* StockViewModel.swift in Sources */,
+				E496F42529F5D16700C33CEF /* Stock.swift in Sources */,
+				E496F42B29F5E6B700C33CEF /* StockLookupView.swift in Sources */,
 				E496F40629F5ABBA00C33CEF /* TradeTogetherApp.swift in Sources */,
+				E496F43229F6171500C33CEF /* StockDetailView.swift in Sources */,
+				E496F42929F5DC5D00C33CEF /* WatchlistDetailView.swift in Sources */,
+				E496F42E29F5EA1100C33CEF /* StockLookupViewModel.swift in Sources */,
+				E496F43029F5EBAC00C33CEF /* StockResults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +364,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +394,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +430,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E496F41529F5ADC100C33CEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E496F41629F5ADC200C33CEF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E496F41529F5ADC100C33CEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E496F41829F5ADC200C33CEF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E496F41529F5ADC100C33CEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E496F41A29F5ADC200C33CEF /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E496F41529F5ADC100C33CEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		E496F41C29F5ADC200C33CEF /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E496F41529F5ADC100C33CEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E496F3FA29F5ABBA00C33CEF /* Project object */;
 }
